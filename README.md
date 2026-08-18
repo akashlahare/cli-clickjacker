@@ -10,10 +10,10 @@ python3 -m pip install httpx pandas openpyxl
 python3 cliclickjacker.py -u example.com
 
 ### Bulk Scan:
-python3 cliclickjacker.py -f targets.txt
+python3 cliclickjacker.py -f urls.txt
 
 ### Save Report:
-python3 cliclickjacker.py -f targets.txt -o report.html
+python3 cliclickjacker.py -f urls.txt -o report.html
 
 ## Supported Files:
 * .txt          → One URL per line
